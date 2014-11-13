@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center !important;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 180%;
+  background-color: #ECE8E7; }
+
+ul {
+  list-style-type: none;
+  margin: 10px 20px;
+  padding: 0;
+  text-align: left;
+  font-size: 15px; }
+
+li {
+  display: inline;
+  margin-right: 20px; }
+
+a {
+  color: #2B2B2B;
+  text-decoration: none; }
+  a:hover {
+    color: #58585B;
+    text-decoration: none;
+    cursor: pointer; }
+
+.instaTag {
+  width: 400px;
+  height: 24px;
+  padding: 2px 7px;
+  font-size: 10pt;
+  color: #7E7E7E;
+  font-family: 'Quicksand', sans-serif; }
+
+#submit {
+  width: 100px;
+  height: 30px;
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 2px 7px;
+  background: #58585B;
+  border: 1px solid #2B2B2B;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif; }
+
+form {
+  text-align: center; }
+
+#abtbox {
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 20px; }
+
+section {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 640px; }
+
+article {
+  margin: 50px 0; 
+  text-align: center; }
+
+
+
+p {
+  margin: 10px 0;
+  line-height: 130%; }
+#logo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+#txt {
+  margin: 0 auto;
+  padding: 0 auto; }
+
+#tag {
+  text-align: center; }
+
+#instafeed {
+  text-align: center !important;
+  margin: 50px auto;
+  width: 85%; 
+}
+
+#instafeed img {
+  /*max-width: 280px;*/
+  width: 100%;
+    /*height: 100%;
+    position: absolute;*/
+    left: 0;
+    border: 1px solid #ccc; 
+}
+
+#instafeed a{
+  position: relative;
+  margin: 0 10px 25px 0;
+  float: left;
+  /*width: 100%;*/
+  width: 24%; }
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  height: 40px; }
+
+/*# sourceMappingURL=style.css.map */
