@@ -6,16 +6,17 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   text-align: center !important;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
   line-height: 180%;
-  background-color: #ECE8E7; }
+  background-color: #ECE8E7;
+  font-size: 1.0em; }
 
 ul {
   list-style-type: none;
   margin: 10px 20px;
   padding: 0;
   text-align: left;
-  font-size: 15px; }
+  font-size: 1.0em; }
 
 li {
   display: inline;
@@ -29,24 +30,36 @@ a {
     text-decoration: none;
     cursor: pointer; }
 
-.instaTag {
-  width: 400px;
-  height: 24px;
-  padding: 2px 7px;
-  font-size: 10pt;
-  color: #7E7E7E;
-  font-family: 'Quicksand', sans-serif; }
+.locationBox {
+  text-align: center;
+  margin: 7px; }
+
+.locKorea {
+  border: 1px solid #808080;
+  border-radius: 0;
+  width: 200px;
+  height: 35px;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-family: Quicksand, sans-serif;
+  color: #2B2B2B;
+  text-overflow: "";
+  background: #EEEEEE url(img/select-arrow.png) no-repeat 94% center;
+  text-indent: 0.01px;
+  padding: 7px 7px 7px 15px;
+  box-shadow: none;
+  text-align: center; }
 
 #submit {
   width: 100px;
-  height: 30px;
-  font-size: 10pt;
+  height: 35px;
+  font-size: 0.9em;
   font-weight: bold;
-  padding: 2px 7px;
+  padding: 7px;
   background: #58585B;
   border: 1px solid #2B2B2B;
   color: #FFFFFF;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: Quicksand, sans-serif; }
 
 form {
   text-align: center; }
@@ -54,7 +67,6 @@ form {
 #abtbox {
   width: 60%;
   margin: 10px auto;
-  text-align: center;
   background-color: #FFFFFF;
   padding: 20px; }
 
@@ -64,14 +76,13 @@ section {
   width: 640px; }
 
 article {
-  margin: 50px 0; 
+  margin: 50px 0;
   text-align: center; }
-
-
 
 p {
   margin: 10px 0;
   line-height: 130%; }
+
 #logo {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -79,7 +90,8 @@ p {
 
 #txt {
   margin: 0 auto;
-  padding: 0 auto; }
+  padding: 0 auto;
+  font-size: 1.02em; }
 
 #tag {
   text-align: center; }
@@ -87,31 +99,23 @@ p {
 #instafeed {
   text-align: center !important;
   margin: 50px auto;
-  width: 85%; 
-}
-
-#instafeed img {
-  /*max-width: 280px;*/
-  width: 100%;
-    /*height: 100%;
-    position: absolute;*/
+  width: 85%; }
+  #instafeed img {
+    width: 100%;
     left: 0;
-    border: 1px solid #ccc; 
-}
-
-#instafeed a{
-  position: relative;
-  margin: 0 10px 25px 0;
-  float: left;
-  /*width: 100%;*/
-  width: 24%; }
+    border: 1px solid #ccc; }
+  #instafeed a {
+    position: relative;
+    margin: 0 10px 25px 0;
+    float: left;
+    width: 24%; }
 
 footer {
   clear: both;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 10px;
-  font-size: 15px;
+  font-size: 1.0em;
   height: 40px; }
 
 /*# sourceMappingURL=style.css.map */

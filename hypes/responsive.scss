@@ -1,0 +1,26 @@
+@media screen and (max-width: 1190px) {
+	#instafeed img {
+		max-width: 280px;
+	}
+}
+@media screen and (max-width: 920px) {
+	#instafeed img {
+		max-width: 400px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.instaTag {
+		width: 55%;
+	}
+	#instafeed img {
+		max-width: 400px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.instaTag {
+		width: 59%;
+	}
+	#instafeed img {
+		max-width: 300px;
+	}
+}

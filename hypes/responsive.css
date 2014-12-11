@@ -1,25 +1,20 @@
 @media screen and (max-width: 1190px) {
   #instafeed img {
-    /*width: 31%;*/
-    max-width: 280px;
-    } }
+    max-width: 280px; } }
 @media screen and (max-width: 920px) {
   #instafeed img {
-    max-width: 400px;
-    } }
+    max-width: 400px; } }
 @media screen and (max-width: 640px) {
-  #instafeed img {
-    max-width: 400px;}
-
   .instaTag {
-    width: 55%; } }
+    width: 55%; }
 
+  #instafeed img {
+    max-width: 400px; } }
 @media screen and (max-width: 480px) {
-  #instafeed img {
-    max-width: 300px;
-     }
-
   .instaTag {
-    width: 59%; } }
+    width: 59%; }
+
+  #instafeed img {
+    max-width: 300px; } }
 
 /*# sourceMappingURL=responsive.css.map */
